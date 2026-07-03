@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+build-dir/
+.flatpak-builder/
+repo/
+*.flatpak
+deb-build/
+*.deb
+*.egg-info/
+dist/
+Screenshot*.png

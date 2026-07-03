@@ -1,0 +1,37 @@
+app-id: com.orion.player
+runtime: org.gnome.Platform
+runtime-version: '48'
+sdk: org.gnome.Sdk
+command: orion
+finish-args:
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --device=dri
+  - --share=network
+  - --filesystem=home:ro
+  - --filesystem=xdg-videos
+  - --filesystem=xdg-download:ro
+  - --filesystem=xdg-music:ro
+  - --metadata=X-DConf=migrate-path=/com/orion/player/
+
+modules:
+  - name: gstreamer-plugins
+    buildsystem: simple
+    build-commands:
+      - echo "Using runtime GStreamer plugins"
+
+  - name: orion
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 bin/orion /app/bin/orion
+      - mkdir -p /app/share/orion
+      - cp -r orion /app/share/orion/
+      - cp main.py /app/share/orion/
+      - install -Dm644 com.orion.player.desktop /app/share/applications/com.orion.player.desktop
+      - install -Dm644 data/icons/orion.svg /app/share/icons/hicolor/scalable/apps/com.orion.player.svg
+      - install -Dm644 com.orion.player.metainfo.xml /app/share/metainfo/com.orion.player.metainfo.xml
+    sources:
+      - type: dir
+        path: ..

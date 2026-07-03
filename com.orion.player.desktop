@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Orion
+Comment=A powerful, modern video player for Linux
+Exec=orion %U
+Icon=com.orion.player
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;GTK;
+MimeType=video/mp4;video/x-matroska;video/avi;video/webm;video/x-flv;video/quicktime;video/x-msvideo;video/x-ms-wmv;video/ogg;video/3gpp;audio/mpeg;audio/flac;audio/ogg;audio/x-wav;application/x-mpegURL;application/vnd.apple.mpegurl;
+Keywords=video;player;media;movie;music;stream;hls;
+StartupNotify=true

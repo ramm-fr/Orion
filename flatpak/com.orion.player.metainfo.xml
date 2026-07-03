@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.orion.player</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Orion</name>
+  <summary>A powerful, modern video player for Linux</summary>
+  <developer id="com.orion.player">
+    <name>Ram</name>
+  </developer>
+
+  <description>
+    <p>
+      Orion is a feature-rich video player built with GTK4 and GStreamer for the Linux desktop.
+      It supports over 80 video formats and offers advanced playback features in a clean,
+      modern interface that follows GNOME design guidelines.
+    </p>
+    <p>Key Features:</p>
+    <ul>
+      <li>80+ video format support (MP4, MKV, AVI, MOV, WebM, FLV, and more)</li>
+      <li>Stream playback — HLS (.m3u8), RTSP, HTTP/HTTPS URLs</li>
+      <li>Multi-audio track selection with automatic language detection</li>
+      <li>Embedded subtitle track switching</li>
+      <li>Online subtitle search and download</li>
+      <li>10-band audio equalizer with 9 presets</li>
+      <li>Aspect ratio control (Default, Fill, Stretch, Fit)</li>
+      <li>Playback speed control (0.25x to 4.0x)</li>
+      <li>Video folders — organize videos in custom collections</li>
+      <li>Drag and drop file support</li>
+      <li>Statistics dashboard with real-time activity graphs</li>
+      <li>Screenshot capture</li>
+      <li>Keyboard shortcuts for all controls</li>
+      <li>Hardware acceleration</li>
+      <li>AB repeat and frame stepping</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.orion.player.desktop</launchable>
+
+  <url type="homepage">https://github.com/orion-player/orion</url>
+  <url type="bugtracker">https://github.com/orion-player/orion/issues</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Orion playing a video with overlay controls</caption>
+      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/player.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Home screen with stream URL input</caption>
+      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/home.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Browse section with video folders</caption>
+      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/browse.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Statistics dashboard with activity graphs</caption>
+      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/stats.png</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="2.0.0" date="2025-07-03">
+      <description>
+        <p>Major release with complete redesign and new features:</p>
+        <ul>
+          <li>New home screen with drag and drop support</li>
+          <li>Stream URL playback (HLS, RTSP, HTTP)</li>
+          <li>Browse section with Favourites and Downloads folders</li>
+          <li>Multi-audio track selection with language detection</li>
+          <li>Embedded subtitle track switching</li>
+          <li>Online subtitle search and download</li>
+          <li>10-band audio equalizer with presets</li>
+          <li>Aspect ratio switching</li>
+          <li>Statistics dashboard with weekly and daily graphs</li>
+          <li>80+ video format support</li>
+          <li>Hardware acceleration</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>Video</category>
+    <category>Player</category>
+    <category>GTK</category>
+  </categories>
+
+  <keywords>
+    <keyword>video</keyword>
+    <keyword>player</keyword>
+    <keyword>media</keyword>
+    <keyword>movie</keyword>
+    <keyword>stream</keyword>
+    <keyword>hls</keyword>
+    <keyword>mkv</keyword>
+    <keyword>mp4</keyword>
+  </keywords>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+</component>

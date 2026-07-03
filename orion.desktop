@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Orion
+Comment=A powerful, modern video player for Linux
+Exec=python3 /home/ram/Documents/Orion/main.py %U
+Icon=com.orion.player
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;
+MimeType=video/mp4;video/x-matroska;video/avi;video/webm;video/x-flv;audio/mpeg;audio/flac;audio/ogg;audio/x-wav;
+Keywords=video;player;media;movie;music;
+StartupNotify=true
