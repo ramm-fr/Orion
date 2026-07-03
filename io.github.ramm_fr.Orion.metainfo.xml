@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.orion.player</id>
+  <id>io.github.ramm_fr.Orion</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <name>Orion</name>
   <summary>A powerful, modern video player for Linux</summary>
-  <developer id="com.orion.player">
+  <developer id="io.github.ramm_fr.Orion">
     <name>Ram</name>
   </developer>
 
@@ -35,7 +35,7 @@
     </ul>
   </description>
 
-  <launchable type="desktop-id">com.orion.player.desktop</launchable>
+  <launchable type="desktop-id">io.github.ramm_fr.Orion.desktop</launchable>
 
   <url type="homepage">https://github.com/ramm-fr/Orion</url>
   <url type="bugtracker">https://github.com/ramm-fr/Orion/issues</url>

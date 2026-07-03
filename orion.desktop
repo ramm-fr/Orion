@@ -2,7 +2,7 @@
 Name=Orion
 Comment=A powerful, modern video player for Linux
 Exec=python3 /home/ram/Documents/Orion/main.py %U
-Icon=com.orion.player
+Icon=io.github.ramm_fr.Orion
 Terminal=false
 Type=Application
 Categories=AudioVideo;Video;Player;

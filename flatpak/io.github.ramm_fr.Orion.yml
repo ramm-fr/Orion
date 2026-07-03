@@ -1,4 +1,4 @@
-app-id: com.orion.player
+app-id: io.github.ramm_fr.Orion
 runtime: org.gnome.Platform
 runtime-version: '48'
 sdk: org.gnome.Sdk
@@ -14,7 +14,7 @@ finish-args:
   - --filesystem=xdg-videos
   - --filesystem=xdg-download:ro
   - --filesystem=xdg-music:ro
-  - --metadata=X-DConf=migrate-path=/com/orion/player/
+  - --metadata=X-DConf=migrate-path=/io.github.ramm_fr.Orion/
 
 modules:
   - name: gstreamer-plugins
@@ -29,9 +29,9 @@ modules:
       - mkdir -p /app/share/orion
       - cp -r orion /app/share/orion/
       - cp main.py /app/share/orion/
-      - install -Dm644 com.orion.player.desktop /app/share/applications/com.orion.player.desktop
-      - install -Dm644 data/icons/orion.svg /app/share/icons/hicolor/scalable/apps/com.orion.player.svg
-      - install -Dm644 com.orion.player.metainfo.xml /app/share/metainfo/com.orion.player.metainfo.xml
+      - install -Dm644 io.github.ramm_fr.Orion.desktop /app/share/applications/io.github.ramm_fr.Orion.desktop
+      - install -Dm644 data/icons/orion.svg /app/share/icons/hicolor/scalable/apps/io.github.ramm_fr.Orion.svg
+      - install -Dm644 io.github.ramm_fr.Orion.metainfo.xml /app/share/metainfo/io.github.ramm_fr.Orion.metainfo.xml
     sources:
       - type: dir
         path: ..
