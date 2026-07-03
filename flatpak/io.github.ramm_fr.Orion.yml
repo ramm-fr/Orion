@@ -30,7 +30,7 @@ modules:
       - cp -r orion /app/share/orion/
       - cp main.py /app/share/orion/
       - install -Dm644 io.github.ramm_fr.Orion.desktop /app/share/applications/io.github.ramm_fr.Orion.desktop
-      - install -Dm644 data/icons/orion.svg /app/share/icons/hicolor/scalable/apps/io.github.ramm_fr.Orion.svg
+      - install -Dm644 data/icons/io.github.ramm_fr.Orion.svg /app/share/icons/hicolor/scalable/apps/io.github.ramm_fr.Orion.svg
       - install -Dm644 io.github.ramm_fr.Orion.metainfo.xml /app/share/metainfo/io.github.ramm_fr.Orion.metainfo.xml
     sources:
       - type: dir
