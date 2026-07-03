@@ -37,25 +37,25 @@
 
   <launchable type="desktop-id">com.orion.player.desktop</launchable>
 
-  <url type="homepage">https://github.com/orion-player/orion</url>
-  <url type="bugtracker">https://github.com/orion-player/orion/issues</url>
+  <url type="homepage">https://github.com/ramm-fr/Orion</url>
+  <url type="bugtracker">https://github.com/ramm-fr/Orion/issues</url>
 
   <screenshots>
     <screenshot type="default">
       <caption>Orion playing a video with overlay controls</caption>
-      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/player.png</image>
+      <image>https://raw.githubusercontent.com/ramm-fr/Orion/main/screenshots/player.png</image>
     </screenshot>
     <screenshot>
       <caption>Home screen with stream URL input</caption>
-      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/home.png</image>
+      <image>https://raw.githubusercontent.com/ramm-fr/Orion/main/screenshots/home.png</image>
     </screenshot>
     <screenshot>
       <caption>Browse section with video folders</caption>
-      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/browse.png</image>
+      <image>https://raw.githubusercontent.com/ramm-fr/Orion/main/screenshots/browse.png</image>
     </screenshot>
     <screenshot>
       <caption>Statistics dashboard with activity graphs</caption>
-      <image>https://raw.githubusercontent.com/orion-player/orion/main/screenshots/stats.png</image>
+      <image>https://raw.githubusercontent.com/ramm-fr/Orion/main/screenshots/stats.png</image>
     </screenshot>
   </screenshots>
 

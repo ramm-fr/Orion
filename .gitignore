@@ -9,4 +9,3 @@ deb-build/
 *.deb
 *.egg-info/
 dist/
-Screenshot*.png
